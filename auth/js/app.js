@@ -128,7 +128,7 @@ let signup = (event) => {
                         })
                         .then(() => {
                             console.log("user added!");
-                            location.href = "../index.html";
+                            location.href = "../../auth/index.html";
                         })
                         .catch((error) => {
                             console.error("Error adding document: ", error);
